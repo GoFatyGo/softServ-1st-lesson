@@ -179,7 +179,7 @@ namespace softServ_1_lesson
 
             string EnterSquarSide = Console.ReadLine();
             int SquarSide = Convert.ToInt32(EnterSquarSide);
-            Console.WriteLine($"Area = {SquarSide * SquarSide} and Perimeter = {Sum(SquarSide, SquarSide)}");
+            Console.WriteLine($"Area = {SquarSide * SquarSide} and Perimeter = {4*SquarSide}");
 
             Console.WriteLine("\n\n"+"2."+
                 "Define string name and integer age. Output question \"What is your name ?\"\nRead value name and output next question: \"How old are you, (name) ? \" \nRead value age and output whole information  ") ;
